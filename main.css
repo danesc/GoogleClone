@@ -1,0 +1,266 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, input, fieldset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+} 
+
+/* HTML5 display-role reset for older browsers */
+
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, fieldset {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+         
+/* ======================================================= */
+body {
+	font-family: Arial, sans-serif;
+}
+nav {
+
+	text-align: right;
+	font-size: 80%;
+	margin-top: 15px;
+	margin-right: 30px;
+}
+
+nav a {
+	margin-left: 10px;
+}
+
+nav a img {
+	width: 23px;
+	height: 23px;
+	padding-right: 5px;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+
+nav a:link {
+	color: #404040;
+	text-decoration: none;
+}
+
+nav a:visited {
+	color: #404040;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+a.signin:link {
+	color: #fff;
+}
+
+a.signin:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+
+a.signin:hover {
+	color: #fff;
+	text-decoration: none;
+	cursor: default;
+}
+
+.logo {
+	width: 269px;
+	height: 95px;
+	margin-top: 147px;
+	margin-right: auto;
+	margin-bottom: 23px;
+	margin-left: auto;
+	display: block;
+}
+
+fieldset div {
+
+	text-align: center;
+	margin-top: 15px;
+
+}
+
+
+.search {
+	width: 572px;
+	height: 30px;
+	border-radius: 1px;
+	display: block;
+	margin:auto;
+	border:1px solid #d8d8d8;
+}
+
+input {
+	background-image: url("images/microphone.png");
+	background-repeat: no-repeat;
+	background-size: 23px 24px;
+	background-position: 99.545% 63%;
+
+}
+
+input:hover {
+	border:1px solid #b2b2b2;
+}
+
+input:focus{
+	border:1px solid #4284f4;
+	outline: none;
+}
+
+footer {
+	height: 40px;
+	border-top: 1px solid #e4e4e4;
+	background-color: #f2f2f2;
+	font-size: 80%;
+	position: absolute;
+	bottom:0;
+	width: 100%;
+}
+
+footer a:link {
+	color: #666;
+	text-decoration: none;
+}
+
+footer a:visited {
+	color: #666;
+	text-decoration: none;
+}
+
+footer a:hover {
+	text-decoration: underline;
+	color: #666;
+}
+
+footer a:active {
+	color: #dd4b39;
+	text-decoration: underline;
+	
+}
+
+.footerleft {
+	float: left;
+	padding: 13px 0 12px 30px;
+}
+
+.footerleft a {
+	padding-right: 27px;
+}
+
+.footerright {
+	float: right;
+	padding: 13px 30px 12px 0;
+}
+
+.footerright a {
+	padding-left: 27px;
+}
+
+.signin {
+	color: #fff;
+	border:1px solid #4285f4;
+	border-radius: 2px;
+	padding: 7px 12px 8px 12px;
+	font-weight: bold;
+	display: inline-block;
+	text-align: center;
+	background: #4387fd;
+	background: -moz-linear-gradient(top, #4387fd 0%, #4584e8 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #4387fd), color-stop(100%, #4584e8));
+	background: -webkit-linear-gradient(top, #4387fd 0%, #4584e8 100%);
+	background: -o-linear-gradient(top, #4387fd 0%, #4584e8 100%);
+	background: -ms-linear-gradient(top, #4387fd 0%, #4584e8 100%);
+	background: linear-gradient(to bottom, #4387fd 0%, #4584e8 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4387fd', endColorstr='#4584e8', GradientType=0 );
+}
+
+.btnA {
+	border:1px solid #d8d8d8;
+	border-radius: 2px;
+	color: #444;
+	padding: 7px 8px;
+	background: #F5F5F5;
+	background: -webkit-linear-gradient(#F5F5F5, #F1F1F1);
+	background: -moz-linear-gradient(#F5F5F5, #F1F1F1);
+	background: linear-gradient(#F5F5F5, #F1F1F1);
+	font-weight: bold;
+	margin-right: 6px;
+
+}
+
+.btnB {
+	border:1px solid #d8d8d8;
+	border-radius: 2px;
+	color: #444;
+	padding: 7px 8px;
+	background: #F5F5F5;
+	background: -webkit-linear-gradient(#F5F5F5, #F1F1F1);
+	background: -moz-linear-gradient(#F5F5F5, #F1F1F1);
+	background: linear-gradient(#F5F5F5, #F1F1F1);
+	font-weight: bold;
+	margin-left: 6px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
